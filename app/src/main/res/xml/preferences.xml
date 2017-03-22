@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_notifications_title" >
+
+        <CheckBoxPreference
+            android:key="pref_show_notifications"
+            android:title="@string/pref_title_show_notifications"
+            android:summary="@string/pref_summary_show_notifications"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_signals_title" >
+
+        <com.tradeitsignals.ui.preferences.TimePreference
+            android:key="pref_signal_morning_restriction_millis"
+            android:title="@string/pref_title_signal_morning_restriction"
+            android:summary="@string/pref_summary_signal_morning_restriction"
+            android:layout="@layout/pref_item_time_picker"
+            android:defaultValue="21600000"/><!-- 6 hours : 6 am -->
+
+        <com.tradeitsignals.ui.preferences.TimePreference
+            android:key="pref_signal_evening_restriction_millis"
+            android:title="@string/pref_title_signal_evening_restriction"
+            android:summary="@string/pref_summary_signal_evening_restriction"
+            android:layout="@layout/pref_item_time_picker"
+            android:defaultValue="82800000"/><!-- 23 hours : 11 pm -->
+
+        <MultiSelectListPreference
+            android:key="pref_signal_currency_pairs_filter"
+            android:title="@string/pref_title_currency_pairs_filter"
+            android:summary="@string/pref_summary_currency_pairs_filter"
+            android:entries="@array/currency_pairs"
+            android:entryValues="@array/currency_pairs"
+            android:defaultValue="@array/currency_pairs" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

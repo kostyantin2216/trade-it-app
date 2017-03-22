@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_market_review"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_currency_pair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="USD/CHF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_date_created"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="right|center"
+                android:text="created at 10-27-1989 10:15:34"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <View style="@style/vertical_divider" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_asset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:src="@drawable/audcad" />
+
+            <View style="@style/horizontal_divider" />
+
+            <TextView
+                android:id="@+id/tv_time_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="expires in\n 5 \nMinutes"
+                android:textSize="17sp" />
+
+            <View style="@style/horizontal_divider" />
+
+            <TextView
+                android:id="@+id/tv_rate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.96161 or higher"
+                android:textSize="17sp" />
+
+            <View style="@style/horizontal_divider" />
+
+            <ImageView
+                android:id="@+id/iv_callorput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:visibility="invisible"/>
+        </TableRow>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

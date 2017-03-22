@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/rounded_transparent_white_80"
+    android:orientation="vertical"
+    tools:context="com.tradeitsignals.ui.fragments.NumberCheckerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:hint="@string/enter_number"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLength="14"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <com.tradeitsignals.ui.components.InputStatusView
+            android:id="@+id/isv_telephone_verifier_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_marginStart="2dp">
+
+        <CheckBox
+            android:id="@+id/cb_agree_to_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/agree_to_terms_and_conditions"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_manual_verification_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/manual_verification_instruction"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/ripple_effect_rounded_primary_color"
+        android:text="@string/save_and_continue"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btn_reenter_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ripple_effect_rounded_primary_color"
+        android:text="@string/reenenter_number"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

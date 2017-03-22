@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/base_container">
+
+    <include android:id="@+id/toolbar_actionbar" layout="@layout/toolbar_default"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.DrawerLayout android:id="@+id/drawer"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/navigation_drawer_elevation"
+        android:layout_below="@+id/toolbar_actionbar">
+
+        <LinearLayout
+            android:id="@+id/container_drawer_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.tradeitsignals.ui.components.SlidingTabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:background="@color/myPrimaryColor" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!-- android:layout_marginTop="?android:attr/actionBarSize"-->
+        <fragment android:id="@+id/fragment_drawer"
+            android:name="com.tradeitsignals.ui.navdrawer.NavigationDrawerFragment"
+            android:layout_width="@dimen/navigation_drawer_width"
+            android:layout_height="match_parent" android:layout_gravity="start"
+            app:layout="@layout/fragment_navigation_drawer" />
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

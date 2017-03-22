@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ListView
+        android:id="@+id/lv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/rg_candles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/candles">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/area">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_bars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bars">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_hollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hollow">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_heikin_ashi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/heikin_ashi">
+        </RadioButton>
+
+       <!-- <RadioButton
+            android:id="@+id/rg_renko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/renko">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_line_break"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line_break">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_kagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kagi">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_point_figure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point_figure">
+        </RadioButton>-->
+    </RadioGroup>
+</ScrollView>
+</LinearLayout>

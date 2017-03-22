@@ -1,0 +1,84 @@
+<resources>
+
+    <!--
+        Check Android Theme colors for color reference:
+        https://developer.android.com/training/material/images/ThemeColors.png
+
+        Refer also to Color palette for the UI colors you should use:
+        http://www.google.com/design/spec/style/color.html#color-ui-color-palette
+    -->
+
+    <color name="myPrimaryLightColor">#B3E5FC</color>
+    <color name="myPrimaryColor">#03A9F4</color>
+    <color name="myPrimaryDarkColor">#0288D1</color>
+    <color name="myAccentColor">#00BCD4</color>
+    <color name="myWindowBackground">@color/grey_50</color>
+    <color name="myTextPrimaryColor">#212121</color>
+    <color name="myTextSecondaryColor">#727272</color>
+    <color name="myDividerColor">#B6B6B6</color>
+
+    <color name="myDrawerBackground">@color/grey_100</color>
+    <color name="myDrawerSelectedItemColor">@color/myPrimaryColor</color>
+
+    <drawable name="pressed_gray">#0c000000</drawable>
+    <drawable name="selected_gray">#2c000000</drawable>
+
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent_white_80">#80ffffff</color>
+    <color name="transparent_black_40">#40000000</color>
+    <color name="transparent_black_80">#80000000</color>
+    <color name="transparent_black_AA">#AA000000</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+
+    <color name="blue_50">#E3F2FD</color>
+    <color name="blue_100">#BBDEFB</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="blue_900">#0D47A1</color>
+    <color name="blue_A100">#82B1FF</color>
+    <color name="blue_A200">#448AFF</color>
+    <color name="blue_A400">#2979FF</color>
+    <color name="blue_A700">#2962FF</color>
+
+    <color name="ligh_blue_50">#E1F5FE</color>
+    <color name="ligh_blue_100">#B3E5FC</color>
+    <color name="ligh_blue_200">#81D4FA</color>
+    <color name="ligh_blue_300">#4FC3F7</color>
+    <color name="ligh_blue_400">#29B6F6</color>
+    <color name="ligh_blue_500">#03A9F4</color>
+    <color name="ligh_blue_600">#039BE5</color>
+    <color name="ligh_blue_700">#0288D1</color>
+    <color name="ligh_blue_800">#0277BD</color>
+    <color name="ligh_blue_900">#01579B</color>
+    <color name="ligh_blue_A100">#80D8FF</color>
+    <color name="ligh_blue_A200">#40C4FF</color>
+    <color name="ligh_blue_A400">#00B0FF</color>
+    <color name="ligh_blue_A700">#0091EA</color>
+
+    <color name="light_blue">#2195f2</color>
+    <color name="blue">#043f70</color>
+    <color name="dark_blue">#021328</color>
+
+    <color name="opaque_light_blue">#ff00BCD4</color>
+    <color name="halfway_light_blue">#8000BCD4</color>
+    <color name="transparent_light_blue">#0000BCD4</color>
+
+    <color name="dividers">#DEDEDB</color>
+</resources>

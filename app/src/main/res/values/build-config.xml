@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <bool name="is_development">true</bool>
+    <bool name="is_log_debug_enabled">true</bool>
+
+    <string name="sinch_key">80567a25-0c57-452a-9fe4-6c7c34ff624e</string>
+    <!-- API variables -->
+    <string name="api_base_url">http://10.0.0.7/rest/</string>
+    <!-- Production url: 45.79.151.92 -->
+
+    <!-- AdMob -->
+    <string name="intersitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner3">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner4">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

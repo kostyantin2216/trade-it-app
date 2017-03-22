@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "78829466482",
+    "project_id": "trade-it-71728"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78829466482:android:e08b829da87e1be9",
+        "android_client_info": {
+          "package_name": "com.tradeitsignals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78829466482-45atfopahpprs039ggqs2ba5h3gloc09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tradeitsignals",
+            "certificate_hash": "1103E5D8F277533573CF344CC90FA9557497F679"
+          }
+        },
+        {
+          "client_id": "78829466482-lbd7s4jb57unae0alk0qfp85ai3lbg2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIlekYu_bYJaBsp6Y5IeqKN70JkYYsxqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

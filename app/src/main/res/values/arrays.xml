@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tab titles -->
+    <string-array name="signal_tabs">
+        <item>Current</item>
+        <item>Expired</item>
+    </string-array>
+    <string-array name="broker_tabs">
+        <item>Recommended</item>
+        <item>All</item>
+    </string-array>
+
+
+    <string-array name="chart_tabs">
+        <item>Forex</item>
+        <item>Stocks</item>
+    </string-array>
+
+
+    <string-array name="article_tabs">
+       <!-- <item>CNBC</item>-->
+        <item>Daily Fx</item>
+    </string-array>
+    <!-- Countries we are working with -->
+    <array name="active_countries">
+        <item>Israel</item>
+        <item>South Africa</item>
+        <item>Australia</item>
+        <item>England</item>
+        <item>Russia</item>
+        <item>Switzerland</item>
+        <item>Greenland</item>
+    </array>
+
+    <!-- Currencies for signals -->
+    <array name="currency_pairs">
+        <item>AUD/CAD</item>
+        <item>CHF/JPY</item>
+        <item>EUR/NZD</item>
+        <item>GBP/JPY</item>
+        <item>TRY/JPY</item>
+        <item>USD/NOK</item>
+        <item>AUD/CHF</item>
+        <item>EUR/AUD</item>
+        <item>EUR/SEK</item>
+        <item>GBP/NZD</item>
+        <item>USD/CAD</item>
+        <item>USD/SEK</item>
+        <item>AUD/JPY</item>
+        <item>EUR/CAD</item>
+        <item>EUR/TRY</item>
+        <item>GBP/USD</item>
+        <item>USD/CHF</item>
+        <item>USD/TRY</item>
+        <item>AUD/NZD</item>
+        <item>EUR/CHF</item>
+        <item>EUR/USD</item>
+        <item>NZD/CAD</item>
+        <item>USD/CNH</item>
+        <item>USD/ZAR</item>
+        <item>AUD/USD</item>
+        <item>EUR/GBP</item>
+        <item>GBP/AUD</item>
+        <item>NZD/CHF</item>
+        <item>USD/HKD</item>
+        <item>ZAR/JPY</item>
+        <item>CAD/CHF</item>
+        <item>EUR/JPY</item>
+        <item>GBP/CAD</item>
+        <item>NZD/JPY</item>
+        <item>USD/JPY</item>
+        <item>CAD/JPY</item>
+        <item>EUR/NOK</item>
+        <item>GBP/CHF</item>
+        <item>NZD/USD</item>
+        <item>USD/MXN</item>
+    </array>
+
+    <array name="channels">
+        <item>signals</item>
+        <item>test</item>
+    </array>
+
+</resources>

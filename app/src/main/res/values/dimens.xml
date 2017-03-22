@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">300dp</dimen>
+    <dimen name="navigation_drawer_elevation">4dp</dimen>
+    <dimen name="toolbar_elevation">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="chart_menu_item_padding">14dp</dimen>
+
+    <dimen name="fb_margin_override_top">11dp</dimen>
+    <dimen name="fb_margin_override_bottom">11dp</dimen>
+    <!--The next value changes the margin between the FB icon and the left border:-->
+    <dimen name="fb_margin_override_left">8dp</dimen>
+    <!--The next value changes the margin between the FB icon and the login text:-->
+    <dimen name="fb_margin_override_textpadding">17dp</dimen>
+</resources>

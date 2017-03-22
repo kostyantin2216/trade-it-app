@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:background="@color/light_blue"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_cad"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_currency_flag" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CAD"
+        style="@style/sub_title"
+        android:id="@+id/tv_currency_iso"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_currency_flag"
+        android:layout_toEndOf="@+id/iv_currency_flag" />
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAD"
+        android:id="@+id/ac_currency_picker"
+        android:layout_alignBottom="@+id/iv_currency_flag"
+        android:layout_toRightOf="@+id/iv_currency_flag"
+        android:layout_toEndOf="@+id/iv_currency_flag" />
+
+
+</RelativeLayout>

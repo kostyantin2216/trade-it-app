@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application variables -->
+    <integer name="database_version">11</integer>
+    <string name="base_log_tag">TILogger - </string>
+
+    <string name="google_server_client_id">78829466482-lbd7s4jb57unae0alk0qfp85ai3lbg2g.apps.googleusercontent.com</string>
+
+    <string name="apps_flyer_key">vL7YeYjyy2834kxBVo4nLg</string>
+
+    <integer-array name="code_numbers">
+        <item>4</item>
+        <item>2</item>
+        <item>0</item>
+        <item>3</item>
+        <item>51</item>
+        <item>34</item>
+        <item>920</item>
+        <item>33</item>
+    </integer-array>
+
+    <!-- Defaults -->
+    <integer name="default_recycler_item_animation_time_millis">1000</integer>
+
+    <integer name="country_fetch_retries">5</integer>
+
+    <!-- Broker Registration -->
+    <string name="broker_registration_comment">Trade It Signals Android Application: this trader is looking for the right place to trade on signals.</string>
+
+    <!-- AdMob variables -->
+    <string name="test_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="test_intersitial">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- Parse variables -->
+    <integer name="parse_signal_synchronization_query_limit">30</integer>
+    <!-- 1 day -->
+    <string name="parse_signal_sync_interval">86400000</string>
+    <!-- 1 day -->
+    <string name="parse_broker_sync_interval">86400000</string>
+    <!-- 1 day -->
+    <string name="parse_market_review_sync_interval">86400000</string>
+    <!-- 1 month -->
+    <string name="parse_currency_sync_interval">2629746000</string>
+    <!-- 1 week -->
+    <string name="parse_content_page_sync_interval">604800000</string>
+    <!-- 1 day -->
+    <string name="parse_user_sync_interval">86400000</string>
+
+    <!-- Splash screen itemAnimation variables -->
+    <integer name="splash_time_millis_per_in_anim">1000</integer>
+    <integer name="splash_time_millis_per_out_anim">600</integer>
+    <integer name="splash_time_millis_in_first_offset">70</integer>
+    <integer name="splash_time_millis_in_second_offset">140</integer>
+    <integer name="secret_number">232116</integer>
+
+    <string name="opteck_affiliate_id">2778</string>
+    <string name="opteck_partner_id">JGJZoG</string>
+    <string name="ubinary_affiliate_id">35871</string>
+    <string name="tradorax_username">charlie</string>
+    <string name="tradorax_password">Charlie1234t</string>
+    <string name="tradorax_tracking_code">105529</string>
+    <string name="facebook_app_id">1177681995583692</string>
+    <string name="fabric_app_id">2e12af2087f214616f1568c34215e224f7cd2c29</string>
+</resources>

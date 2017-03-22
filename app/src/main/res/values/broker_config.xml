@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="opteck">true</bool>
+    <bool name="ubinary">false</bool>
+    <bool name="porter_finance">false</bool>
+
+</resources>

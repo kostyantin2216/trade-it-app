@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/developer_options" >
+
+        <EditTextPreference
+            android:key="pref_base_api_url"
+            android:title="@string/base_api_url_label"
+            android:summary="@string/base_api_url_desc"
+            android:defaultValue="@string/api_base_url" />
+
+        <Preference
+            android:key="reset_base_api_url"
+            app:title="@string/reset_base_api_url" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<ListView
+        android:id="@+id/lv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rg_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_one"></RadioButton>
+        <RadioButton
+            android:id="@+id/rg_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_three">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_five">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rg_fifteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_fifteen"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_thirty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_thirty"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_hour"></RadioButton>
+        <RadioButton
+            android:id="@+id/rg_two_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_two_hour"></RadioButton>
+        <RadioButton
+            android:id="@+id/rg_three_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_three_hour"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_four_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_four_hour"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_daily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_daily"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interval_weekly"></RadioButton>
+    </RadioGroup>
+</ScrollView>
+</LinearLayout>

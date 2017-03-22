@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ListView
+        android:id="@+id/lv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/rg_bollinger_bands"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bollinger_bands">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_stochastic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stochastic">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_macd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/macd">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_elliott_wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elliott_wave">
+        </RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/rg_rsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rsi">
+        </RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/rg_moving_averages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moving_averages">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_pivot_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pivot_point_h_l">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_accumulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accumulation_disctribution">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_money_flow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/money_flow">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rg_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/volume">
+        </RadioButton>
+    </RadioGroup>
+</ScrollView>
+</LinearLayout>

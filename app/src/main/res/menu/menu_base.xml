@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tradeitsignals.ui.activities.SignalsActivity">
+    <item android:id="@+id/dev_options"
+        android:title="@string/dev_options"
+        android:orderInCategory="8"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="98"
+        app:showAsAction="never" />
+    <item android:id="@+id/exit_app"
+        android:title="@string/exit"
+        android:orderInCategory="99"
+        app:showAsAction="never" />
+    <item android:id="@+id/search"
+         android:title="@string/search"
+         android:orderInCategory="100"
+         app:showAsAction="always"
+         android:icon="@drawable/ic_sixty_sec"
+        ></item>
+</menu>

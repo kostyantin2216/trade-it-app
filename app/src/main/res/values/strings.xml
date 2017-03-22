@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">Trade It</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="secret_url">http://lumberjackproduction.com/tradeit/resources/keyysss%1$d.txt</string>
+    <string name="random_file_name">randomFileName%1$d.txt</string>
+    <string name="dev_options">Dev Options</string>
+
+    <string name="no_internet_conn">No Internet Connection...</string>
+    <string name="no_internet_msg">In order for Trade It to work properly please connect to the internet with one of the options below.</string>
+    <string name="use_data_package">Data package</string>
+    <string name="use_wifi">Wi-Fi</string>
+    <string name="cannot_start_without_internet">Could not start Trade It Application without a valid internet connect</string>
+    <string name="website">Website</string>
+    <string name="application">Application</string>
+    <string name="save_and_continue">Save and Continue</string>
+    <string name="accept">accept</string>
+    <string name="decline">decline</string>
+    <string name="could_not_register">Could not register with Trade It Signals please try again with a different account.</string>
+
+    <!-- Section titles -->
+    <string name="signals">Signals</string>
+    <string name="brokers">Brokers</string>
+    <string name="market_reviews">Financial News</string>
+    <string name="market_review">Market Review</string>
+    <string name="strategies">Strategies</string>
+    <string name="charts">Charts</string>
+
+    <!-- Navigation Drawer -->
+    <string name="current_nav_item">Cannot open current location</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <!-- Signal strings -->
+    <string name="created_at">Created at %1$s.</string>
+    <string name="expires_in">Expires in\n %1$d \nminutes</string>
+    <string name="expired">Expired</string>
+    <string name="or_higher">%1$.5f \nor higher</string>
+    <string name="or_lower">%1$.5f \nor lower</string>
+    <string name="no_current_signals">No on-going signals to show :(</string>
+
+    <!-- Broker strings -->
+    <string name="broker">Broker</string>
+    <string name="min_deposit">Min Deposit</string>
+    <string name="min_withdrawal">Min Withdrawal</string>
+    <string name="promotion">Promotion</string>
+    <string name="bonus">Bonus</string>
+    <string name="rating">Rating</string>
+    <string name="visit">Visit</string>
+    <string name="test_desc">Are you ready for the best broker of all the brokers in the world becuase this broker has everything to offer best customer support best signals and of course the best profits any trader out there could ask for so dont think twice sign up NOW!"</string>
+    <string name="broker_registration_error">Could not register with %1$s, please try again or contact us at support@tradeitsignals.com</string>
+    <string name="broker_registration_success">Successfully registered with %1$s, you will soon be contacted and welcomed by one of %1$s\'s professional and leading brokers.\nIn the meantime please feel free to download %1$s\'s Application or visit their website from one the links below.</string>
+    <string name="cannot_register_with_this_broker">Cannot register with this broker... please contact us at support@tradeitsignals.com for more information</string>
+
+    <!-- Trial strings -->
+    <string name="trial_expired">Trial Expired</string>
+    <string name="trial_expired_msg">
+        Please register your FREE account with us and you will receive:
+        \n
+        \n* 5-10 Signals daily.
+        \n* A demo account to test our signals.
+        \n* Daily market reviews.
+        \n* Trading strategies.
+        \n* Education centre.
+        \n
+        \nNote: In order to use Trade It you must create a free account.
+    </string>
+    <string name="register">Register</string>
+    <string name="registration_successful">Registration successful!!</string>
+    <string name="signal_for_non_registered_user">New signal!!</string>
+
+    <!-- Registration strings -->
+    <string name="free_registration">Free Registration</string>
+    <string name="registration">Registration</string>
+    <string name="r_first_name">First name:</string>
+    <string name="r_last_name">Last name:</string>
+    <string name="r_email">Email:</string>
+    <string name="r_telephone">Telephone:</string>
+    <string name="r_country">Country:</string>
+    <string name="r_password">Password:</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="telephone">telephone</string>
+    <string name="invalid_telephone">Invalid telephone number, please enter your number.</string>
+    <string name="phone_verification_error">Error while verifying number, please double check your number and try again.</string>
+    <string name="registration_invalid">One or more fields has invalid entries.</string>
+    <string name="validation_first_error">Invalid fields: </string>
+    <string name="registration_activity_result_error">Error during registration please try again or contact us at support@tradeitsignals.com\n\nNOTE: In order to use Trade It you must create a free account.</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="enter_number">Enter your phone number.</string>
+    <string name="enter_sms_code">Enter sms code.</string>
+    <string name="save_number">Save your number and continue.</string>
+    <string name="terms_conditions_title">Terms and conditions.</string>
+    <string name="agree_to_terms_and_conditions"><u>I agree to the terms and conditions</u></string>
+    <string name="continue_title">Continue.</string>
+    <string name="email_enter">In order to continue you must enter a valid email address.</string>
+    <string name="invalid_email">You have entered an invalid email</string>
+    <string name="need_to_accept_terms_and_conditions">Cannot continue without accepting terms and conditions</string>
+    <string name="verification_ongoing">Please wait while we verify your number…</string>
+    <string name="verifying_number">Verifying telephone number.</string>
+    <string name="manual_verification_instruction">Please wait until you receive an sms with your verification code and type it in above.\nIf you do not receive your verification code within a few minutes then please double check your number and try again.</string>
+    <string name="reenenter_number">Re-enter Number</string>
+    <string name="verifying_sms_code">Verifying sms code, please wait.</string>
+    <string name="sms_code_verification_error">Wrong sms code, please double check the code or enter your number again.</string>
+
+    <!-- Permission strings -->
+    <string name="sms_permission_explanation">We need this permission to verify your telephone number automatically.\n\nIf you do not feel comfortable giving us this permission than please close this and wait for a sms code, once you receive the code you can insert it manually.</string>
+
+    <!-- Common strings -->
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="and">and</string>
+    <string name="success">Success</string>
+    <string name="set">Set</string>
+    <string name="search">Search</string>
+    <string name="understood">Understood</string>
+    <string name="_continue">Continue</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_signals">Signals</string>
+    <string name="title_activity_registration">Trade It Registration</string>
+    <string name="title_activity_currency_conversion">Currency Conversion</string>
+    <string name="title_activity_content_page_list">Strategies</string>
+    <string name="title_activity_web_view">Content Browser</string>
+    <string name="title_activity_developer_options">DeveloperOptionsActivity</string>
+    <string name="title_activity_broker_registration">BrokerRegistrationActivity</string>
+    <string name="title_activity_charts">Charts</string>
+    <string name="title_activity_articles">Financial News</string>
+    <string name="title_activity_article">Article</string>
+    <string name="title_activity_fblogin">Trade It Login</string>
+
+    <!-- Preferences -->
+    <string name="pref_notifications_title">Notification\'s</string>
+    <string name="pref_signals_title">Signal\'s</string>
+    <string name="pref_summary_show_notifications">Receive all application notification\'s</string>
+    <string name="pref_title_show_notifications">Enable/Disable notification\'s</string>
+    <string name="pref_title_signal_morning_restriction">Morning Restriction\'s</string>
+    <string name="pref_summary_signal_morning_restriction">I do not want to receive signals before this hour!</string>
+    <string name="pref_title_signal_evening_restriction">Evening Restriction\'s</string>
+    <string name="pref_summary_signal_evening_restriction">I do not want to receive signal\'s After this hour!</string>
+    <string name="pref_title_currency_pairs_filter">Currency Pair\'s Restriction\'s</string>
+    <string name="pref_summary_currency_pairs_filter">I only want to receive signal\'s for these currency pair\'s!</string>
+
+    <string name="random_code">uU%1$dXG%2$dya%3$dbf%4$dKp%5$dk%6$djBUv%7$dRwmX%8$d</string>
+
+    <!-- chart strings-->
+    <string name="option_chart_selected">Chart updating...</string>
+    <string name="indicator">Indicator</string>
+    <string name="interval">Interval</string>
+    <string name="chart_type">Chart type</string>
+
+
+    <string name="interval_one">1 minute</string>
+    <string name="interval_three">3 minutes</string>
+    <string name="interval_five">5 minutes</string>
+    <string name="interval_fifteen">15 minutes</string>
+    <string name="interval_thirty">30 minutes</string>
+    <string name="interval_hour">1 hour</string>
+    <string name="interval_two_hour">2 hours</string>
+    <string name="interval_three_hour">3 hours</string>
+    <string name="interval_four_hour">4 hours</string>
+    <string name="interval_daily">Daily</string>
+    <string name="interval_weekly">Weekly</string>
+
+
+    <string name="bollinger_bands">Bollinger bands</string>
+    <string name="stochastic">Stochastic</string>
+    <string name="macd">MACD</string>
+    <string name="elliott_wave">Elliott Wave</string>
+    <string name="moving_averages">Moving averages</string>
+    <string name="pivot_point_h_l">Pivot points high/low</string>
+    <string name="accumulation_disctribution">Accumulation/Distribution</string>
+    <string name="money_flow">Money flow</string>
+    <string name="rsi">RSI</string>
+    <string name="volume">Volume</string>
+
+
+    <string name="candles">Candles</string>
+    <string name="area">Area</string>
+    <string name="bars">Bars</string>
+    <string name="line">Line</string>
+    <string name="hollow">Hollow</string>
+    <string name="heikin_ashi">Heikin ashi</string>
+    <string name="renko">Renko</string>
+    <string name="line_break">Line break</string>
+    <string name="kagi">Kagi</string>
+    <string name="point_figure">Point &amp; Figure</string>
+
+    <string name="select_an_interval">Select an interval.</string>
+    <string name="select_an_indicator">Select an indicator.</string>
+    <string name="select_chart_type">Select a chart type.</string>
+
+    <string name="chart_title">Trading Charts</string>
+
+    <!-- progress dialog messages -->
+    <string name="loading">Loading</string>
+    <string name="loading_news">Loading Articles</string>
+    <string name="loading_article">Loading Article</string>
+    <string name="loading_chart">Loading %1$s Chart</string>
+    <string name="please_wait">Please wait...</string>
+
+
+    <!-- facebook login-->
+    <string-array name="fblogin_array">
+        <item>Login</item>
+        <item>Number</item>
+        <item>Terms and conditions</item>
+    </string-array>
+
+    <!--  Toasts -->
+    <string name="confirm_exit">Press back again to exit.</string>
+    <string name="error">error</string>
+
+    <!-- Back Office -->
+    <string name="reset_base_api_url">Reset Base Api URL</string>
+    <string name="developer_registration_dialog_content">No user currently exists, either register or create a test a user.</string>
+    <string name="test_user">Test User</string>
+    <string name="send_signal">Send signal</string>
+    <string name="send_a_signal">Send A Signal!</string>
+    <string name="show_logs">Show logs</string>
+    <string name="empty_error_log">\n\nNo/Empty Log.\n\n</string>
+    <string name="no_error_logs">\n\nNo error logs saved on device.\n\n</string>
+    <string name="invalid_expiry_time">Invalid expiry time.</string>
+    <string name="invalid_rate">Invalid rate.</string>
+    <string name="valid_input">Valid input.</string>
+    <string name="call">Call</string>
+    <string name="put">Put</string>
+    <string name="currency_pair_label">Currency Pair:</string>
+    <string name="expiry_time_label">Expiry Time:</string>
+    <string name="rate_label">Rate:</string>
+    <string name="message_label">Message:</string>
+    <string name="channel_label">Channel:</string>
+    <string name="developer_options">Developer Options:</string>
+    <string name="base_api_url_label">Base Api URL</string>
+    <string name="base_api_url_desc">Base URL for Rest Server</string>
+
+</resources>

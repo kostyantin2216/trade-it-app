@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="6dp"
+    card_view:cardCornerRadius="6dp"
+    android:id="@+id/cv_content_page" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@color/myAccentColor"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:src="@drawable/ic_sixty_sec"
+            android:id="@+id/iv_content_page_icon" />
+
+        <View style="@style/horizontal_divider" />
+
+        <LinearLayout
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_content_page_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="60 Seconds"
+                android:textColor="@color/myTextPrimaryColor"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <View style="@style/vertical_divider"/>
+
+            <TextView
+                android:id="@+id/tv_content_page_description"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:background="@color/white"
+                android:text="Learn how to get out there and start making those hot bucks within seconds!"
+                android:textSize="14sp"
+                android:textColor="@color/myTextSecondaryColor"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

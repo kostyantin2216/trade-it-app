@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tradeitsignals.ui.components.BrokerListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/tv_broker_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:gravity="center"
+        android:text="24Option"
+        style="@style/title"
+        android:drawableBottom="@drawable/option"/>
+
+    <View style="@style/horizontal_divider" />
+
+   <TextView
+        android:id="@+id/tv_broker_description"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:paddingLeft="10dp"
+        android:paddingRight="8dp"
+        android:text="@string/test_desc"
+        android:visibility="gone"/>
+
+    <TableLayout
+        android:id="@+id/tl_broker_info_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/min_deposit"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/min_withdrawal"
+                android:gravity="right"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_broker_min_deposit_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="$50"/>
+            <TextView
+                android:id="@+id/tv_broker_bonus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="$500"
+                android:gravity="right"/>
+        </TableRow>
+        <RatingBar
+            android:id="@+id/rb_broker_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:numStars="5"
+            android:isIndicator="true"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:rating="3"
+            android:paddingTop="10dp"/>
+    </TableLayout>
+</com.tradeitsignals.ui.components.BrokerListItemView>

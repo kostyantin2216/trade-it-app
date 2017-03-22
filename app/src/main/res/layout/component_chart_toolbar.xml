@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/iv_toggle_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/ripple_effect_primary_color"
+        android:src="@drawable/ic_navigation_more_vert" />
+
+    <LinearLayout
+        android:id="@+id/container_selections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myPrimaryColor"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:src="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_interval"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_effect_primary_color"
+            android:drawableLeft="@drawable/ic_action_restore"
+            android:drawablePadding="-15dp"
+            android:gravity="center"
+            android:padding="@dimen/chart_menu_item_padding"
+            android:text="@string/interval"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_indicator"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_effect_primary_color"
+            android:drawableLeft="@drawable/ic_communication_import_export"
+            android:drawablePadding="-15dp"
+            android:gravity="center"
+            android:padding="@dimen/chart_menu_item_padding"
+            android:text="@string/indicator"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_chart_type"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_effect_primary_color"
+            android:drawableLeft="@drawable/ic_chart"
+            android:drawablePadding="-15dp"
+            android:gravity="center"
+            android:padding="@dimen/chart_menu_item_padding"
+            android:text="@string/chart_type"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

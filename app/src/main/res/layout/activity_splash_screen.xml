@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tradeitsignals.ui.activities.SplashScreen"
+    android:background="@drawable/bg_hands"
+    android:clipChildren="false">
+
+    <TextView
+        android:id="@+id/tv_version_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        style="@style/info_label"
+        android:textColor="@color/white"/>
+
+    <com.tradeitsignals.ui.components.AnimatedTradeItLogo
+        android:id="@+id/animated_trade_it_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="70dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"/>
+
+</RelativeLayout>

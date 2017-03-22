@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tradeitsignals">
+
+    <!-- RETROFIT, FACEBOOK, APPSFLYER, SINCH -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- APPSFLYER, SINCH -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- APPSFLYER -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- SINCH -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <!-- GET RID OF PARSE AND ALL THIS WILL BE GONE -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--
+      IMPORTANT: Change "com.parse.tutorials.pushnotifications.permission.C2D_MESSAGE" in the lines below
+      to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+    <permission
+        android:name="com.tradeitsignals.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.tradeitsignals.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".SignalsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <!-- ACTIVITIES -->
+
+        <activity
+            android:name=".ui.activities.LauncherActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.SignalsActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_signals"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.BrokersActivity"
+            android:configChanges="orientation"
+            android:label="@string/brokers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.BrokerPreviewActivity"
+            android:configChanges="orientation"
+            android:label="@string/broker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.MarketReviewActivity"
+            android:configChanges="orientation"
+            android:label="@string/market_review"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.CurrencyConversionActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_currency_conversion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ContentPageListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_content_page_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.web.WebViewActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_web_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.web.ContentPagePreviewActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_web_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".backoffice.ui.activities.BackOfficeActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_developer_options"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ChartsListActivity"
+            android:label="@string/title_activity_charts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.web.ChartWebActivity"
+            android:label="@string/title_activity_charts"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.activities.web.SinglePageWebView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.RssNewsFeedActivity"
+            android:label="@string/title_activity_articles"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.RegistrationFlowActivity"
+            android:label="@string/title_activity_fblogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- PROVIDERS -->
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1177681995583692"
+            android:exported="true" />
+
+        <!-- SERVICES -->
+
+        <service android:name="com.parse.PushService" />
+
+        <!-- RECEIVERS -->
+
+        <receiver
+            android:name="com.appsflyer.SingleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change to match your app's package name. -->
+                <category android:name="com.tradeitsignals" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".parse.ParseSignalsReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+        <!-- METADATA -->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2e12af2087f214616f1568c34215e224f7cd2c29" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>
