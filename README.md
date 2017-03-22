@@ -1,5 +1,5 @@
 # Description
-This project is a sample of my work, it was started in september 2014 and discontinued in november 2016.
+This project is a sample of my work and is the second Android app i have built from scratch, it was started in september 2014 and discontinued in november 2016.
 It was a fun and interesting journey i went through during my spare time and it helped me gain alot of experience and knowledge in Android and Java.
 The project was stored and mainted using Subversion as such all history is located in Subversion repository.
 This Android application is backed by a java server make sure to check it out: TODO: add link to server repo
