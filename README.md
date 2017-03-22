@@ -2,7 +2,7 @@
 This project is a sample of my work and is the second Android app i have built from scratch, it was started in september 2014 and discontinued in november 2016.
 It was a fun and interesting journey i went through during my spare time and it helped me gain alot of experience and knowledge in Android and Java.
 The project was stored and mainted using Subversion as such all history is located in Subversion repository.
-This Android application is backed by a java server make sure to check it out: TODO: add link to server repo
+This Android application is backed by a java server make sure to check it out: <a href="https://github.com/kostyantin2216/trade-it-server">Server Repository</a>
 
 # Phase 1
 - Implementation of Parse.com database and push notifications.
@@ -17,7 +17,7 @@ This Android application is backed by a java server make sure to check it out: T
 - Implentation of XMLPullParser for reading RSS News Feeds.
 
 # Phase 3
-- Build a java web server from scratch for storing data and registering leads with brokers: TODO: add link to server repo
+- Build a java web server from scratch for storing data and registering leads with brokers: <a href="https://github.com/kostyantin2216/trade-it-server">Server Repository</a>
 
 # Phase 4
 - Installation of Crashlytics for crash reporting and Answers for analytics using Fabric Android SDK.
